@@ -107,9 +107,30 @@ hr {
 
 .section h1 {
     text-align: center;
+}
 
+.section p {
+    text-align: center;
 }
 
 .ow{
     background-color: var(--off-white);
 }
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.footer .link{
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
