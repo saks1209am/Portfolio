@@ -3,7 +3,7 @@
 :root {
     --primary-color: #2321D4;
     --dark-gray: #6b7280;
-    --off-white: #F3F4F6;
+    --off-white: #d1d5db;
 }
 
 body {
@@ -18,6 +18,7 @@ hr {
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-bottom: 2rem;
 }
 
 .container-center {
@@ -30,6 +31,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+
 }
 
 .link-primary {
@@ -43,6 +45,19 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color)
 }
+
+/* .link-primary-first{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    
+}
+
+.link-secondary-second {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color)
+} */
 
 /**lists**/
 .list-non-bullet {
@@ -82,6 +97,7 @@ hr {
 /* header */
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
@@ -129,6 +145,11 @@ hr {
 
 .footer .link{
     color:white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul{
